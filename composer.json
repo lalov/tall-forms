@@ -1,5 +1,5 @@
 {
-    "name": "tanthammar/tall-forms",
+    "name": "lalov/tall-forms",
     "description": "A dynamic, responsive Laravel Livewire form generator with realtime validation, file uploads, array fields, and more.",
     "keywords": [
         "tailwind",
@@ -8,7 +8,7 @@
         "forms",
         "laravel"
     ],
-    "homepage": "https://github.com/tanthammar/tall-forms",
+    "homepage": "https://github.com/lalov/tall-forms",
     "license": "MIT",
     "type": "library",
     "authors": [
