@@ -11,7 +11,8 @@
     "homepage": "https://github.com/lalov/tall-forms",
     "license": "MIT",
     "type": "library",
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
     "authors": [
         {
             "name": "Tina Hammar",
