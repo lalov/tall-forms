@@ -91,6 +91,6 @@ trait Notify
             return;
         }
 
-        $this->dispatchBrowserEvent('notify', $payload);
+        $this->dispatch('notify', $payload);
     }
 }

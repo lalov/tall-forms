@@ -91,7 +91,7 @@ class SpatieTags extends Component
         ]);
         $this->tags = $cleaned;
         $this->search = "";
-        $this->dispatchBrowserEvent("tags-search-input-{$this->field['name']}-focus");
+        $this->dispatch("tags-search-input-{$this->field['name']}-focus");
 
         //$this->notify();
     }
