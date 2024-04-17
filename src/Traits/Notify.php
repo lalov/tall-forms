@@ -74,7 +74,7 @@ trait Notify
 
         if ($preset == 'saved') {
             $message = $message ?: trans('tf::form.alerts.updated-success');
-            $this->emitSelf('notify-saved');//x-on:notify-saved.window, flash trans('tf::form.saved') on the form submit button, buttons.root.blade.php
+            $this->dispatch('notify-saved');//x-on:notify-saved.window, flash trans('tf::form.saved') on the form submit button, buttons.root.blade.php
         }
 
         $payload = [
